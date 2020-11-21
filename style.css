@@ -1,0 +1,344 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f7;
+    margin: 0;
+
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightgray;
+    margin: 0 0 16px 0;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+    margin: 0;
+    text-align: center;
+}
+
+footer p {
+    margin-left: 16px;
+}
+
+/* Хидер */
+.logo__header {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2342505/a65499d166fd4e54a7b5d127247e2ba1/1.png?token-time=2145916800&token-hash=e8HWKH3tRYJ1965qizAlHpMnYScdPatuaHZXjKXbtms%3D);
+    margin: 16px;
+}
+
+.blogName__header {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #fff;
+    opacity: 1;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(229, 227, 221);
+    border-radius: 4px;
+}
+/*промоблок*/
+.referal__main {
+    width: 93%;
+    border: 1px solid rgb(229, 227, 221);
+    margin: 15px auto;
+}
+
+.cover__referal {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cover__referal img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.heading__referal {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 16px;
+}
+
+.description__referal {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin: 0 16px 16px 16px;
+}
+
+/* блок статьи */
+
+.article__main {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(229, 227, 221);
+}
+
+.date__article {
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: lightslategray;
+    margin-bottom: 0;
+}
+
+.heading__article {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.text__article {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.img__article {
+    width: 100%;
+    overflow: hidden;
+}
+/*блок комментариев */
+.comments_main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255) 161, 178);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.heading__comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 16px;
+}
+
+.loader__comments {
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-decoration: underline;
+    color: lightslategray;
+}
+
+.loader__comments:hover {
+    cursor: pointer;
+    color: rgb(161, 167, 172);
+}
+
+.counter__comments {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: lightslategray;
+}
+
+.item__comments {
+    display: flex;
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.avatar_comments {
+    width: 36px;
+    min-width: 36px;
+    height: 36px;
+    min-height: 36px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/28084460/9246f4b1a64e4ffaa19ae4b46ced6a14/1.jpeg?token-time=2145916800&token-hash=38BO8ZDs_Eg9FinccJTMZpJYUq8HIS5aNvhZMst9Cew%3D);
+    margin-right: 16px;
+}
+
+.textarea__comments {
+
+}
+
+.name__comments {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.date__comments {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: lightslategray;
+}
+
+.text__comments {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+/* блок sidebar */
+
+.sidebar__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 350px;
+
+    border-radius: 4px;
+}
+
+.channel__sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+    border: 1px solid rgb(229, 227, 221);
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.img__channel {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2342505/a65499d166fd4e54a7b5d127247e2ba1/1.png?token-time=2145916800&token-hash=e8HWKH3tRYJ1965qizAlHpMnYScdPatuaHZXjKXbtms%3D);
+    margin-bottom: 16px;
+}
+
+.heading__channel {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.description__channel {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+/* кнопка */    
+.button__sidebar {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: center;
+
+    border-radius: 30px;
+    background-color: rgb(25, 18, 18);
+
+    border: 0px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.button__sidebar:hover{
+    border: none;
+    cursor: pointer;
+}
+
+.button__sidebar:active {
+    border: none;
+    background-color: rgb(28, 28, 28);
+}
+
+/*последние посты*/
+.recentPost__sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid rgb(229, 227, 221);
+    border-radius: 4px;
+}
+
+.heading__recentPost {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    border-bottom: 1px solid rgb(229, 227, 221);
+    padding: 16px;
+}
+
+.item__recentPost {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 16px;
+    margin: 16px;
+    border-bottom: 1px solid rgb(229, 227, 221);
+}
+
+.cover__item {
+    width: 40px;
+    height: 40px;
+}
+
+.cover1 {
+    background-color: hotpink;
+}
+
+.cover2 {
+    background-color: lawngreen;
+}
+
+.cover3 {
+    background-color: rgb(0, 208, 255);
+}
+
+.text__item__recentPost {
+    margin-left: 16px;
+}
+
+.heading__item {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.date__item {
+    font-size: 0.9rem;  
+    font-weight: 400;
+    line-height: 1.3rem;
+    color: lightslategray;
+}
